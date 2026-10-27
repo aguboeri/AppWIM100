@@ -8,9 +8,8 @@ Proyecto de la asignatura **DSY1105 Desarrollo de Aplicaciones Móviles** (Duoc 
 ## Integrantes
 | Nombre | Usuario GitHub | Paquete de trabajo |
 |---|---|---|
-| Agustín Boeri | [@aguboeri](https://github.com/aguboeri) | A (sugerido): modelo, Room y reglas de negocio |
-| _Nombre Apellido_ | _@usuario_ | B (por asignar): formularios, recursos nativos de archivos y contacto |
-| _Nombre Apellido_ | _@usuario_ | C (por asignar): navegación, sesión, evaluación y notificaciones |
+| Agustín Boeri | [@aguboeri](https://github.com/aguboeri) | A: modelo, Room, repositorios, evaluación, biometría y pantallas de datos |
+| _Nombre Apellido (Danae)_ | _@usuario_ | B: tema, navegación, formularios, recursos nativos de archivos, contacto y notificaciones |
 
 **Tablero Trello:** [WIM 100 · App móvil (DSY1105)](https://trello.com/b/B9tkven5/wim-100-app-m%C3%B3vil-dsy1105)
 **Reparto detallado:** [docs/REPARTO_TRABAJO.md](docs/REPARTO_TRABAJO.md)
@@ -54,7 +53,7 @@ Flujo de datos: `Screen → ViewModel (StateFlow) → Repository → DAO → Roo
 4. Presionar **Run ▶**.
 
 ## Cómo trabajamos
-Ramas por tarea, commits con descripción técnica y Pull Requests revisados por otra integrante. Ver [docs/FLUJO_GIT.md](docs/FLUJO_GIT.md).
+Ramas por tarea, commits con descripción técnica y Pull Requests revisados por la otra integrante. Ver [docs/FLUJO_GIT.md](docs/FLUJO_GIT.md).
 
 ## Referencia y créditos
 La configuración de Gradle y el diseño de referencia (reglas de negocio, capas y recursos nativos) parten del proyecto guía entregado por el docente Patricio:
