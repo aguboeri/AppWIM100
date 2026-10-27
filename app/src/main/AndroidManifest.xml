@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Recurso nativo 4: notificaciones locales (permiso en tiempo de ejecución desde Android 13 / API 33) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
     <application
         android:name=".WimApplication"
         android:allowBackup="false"
