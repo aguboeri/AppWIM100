@@ -11,6 +11,14 @@ import com.example.appsemestral.WimApplication
 object AppViewModelProvider {
     val Factory = viewModelFactory {
         // Cada pantalla agrega aquí abajo su initializer (ver docs/GUIA_PASO_A_PASO.md)
+        initializer {
+            EvaluacionViewModel(
+                createSavedStateHandle(),
+                app().container.candidataRepository,
+                app().container.evaluacionRepository,
+                app().container.notificador
+            )
+        }
         initializer { SesionViewModel(app().container.historialRepository) }
         initializer { CandidatasViewModel(app().container.candidataRepository) }
         initializer { HistorialViewModel(app().container.historialRepository) }
