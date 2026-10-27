@@ -5,17 +5,17 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import com.example.appsemestral.ui.theme.AppSemestralTheme
 
-/** Pantalla mínima para comprobar que el proyecto compila. Se reemplaza al agregar la navegación. */
+/** Pantalla mínima con el tema propio. Se reemplaza al agregar la navegación. */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            MaterialTheme {
+            AppSemestralTheme {
                 Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                     Text("WIM 100")
                 }
