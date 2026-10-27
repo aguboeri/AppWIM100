@@ -11,6 +11,7 @@ import com.example.appsemestral.WimApplication
 object AppViewModelProvider {
     val Factory = viewModelFactory {
         // Cada pantalla agrega aquí abajo su initializer (ver docs/GUIA_PASO_A_PASO.md)
+        initializer { HistorialViewModel(app().container.historialRepository) }
     }
 }
 
